@@ -17,7 +17,7 @@ const Portfolio = () => {
           loop
           muted
           className="absolute -z-10"
-          src="../public/videos/hero_video.mp4"
+          src="./videos/hero_video.mp4"
         ></video>
       </div>
 
@@ -32,7 +32,7 @@ const Portfolio = () => {
             <Card
               className="mx-auto max-w-sm bg-secondary hover:scale-105 dark:bg-dark-secondary"
               imgAlt="Meaningful alt text for an image that is not purely decorative"
-              imgSrc="../public/images/project-hero.png"
+              imgSrc="./images/project-hero.png"
             >
               <h5 className="text-2xl font-bold tracking-tight text-dark-primary dark:text-primary">
                 Hero Block Gallery
@@ -47,7 +47,7 @@ const Portfolio = () => {
             <Card
               className="mx-auto max-w-sm bg-secondary hover:scale-105 dark:bg-dark-secondary"
               imgAlt="Meaningful alt text for an image that is not purely decorative"
-              imgSrc="../public/images/project-fashion.jpg"
+              imgSrc="./images/project-fashion.jpg"
             >
               <h5 className="text-2xl font-bold tracking-tight text-dark-primary dark:text-primary">
                 Snazzy Fashion
@@ -62,7 +62,7 @@ const Portfolio = () => {
             <Card
               className="mx-auto max-w-sm bg-secondary hover:scale-105 dark:bg-dark-secondary"
               imgAlt="Meaningful alt text for an image that is not purely decorative"
-              imgSrc="../public/images/project-smoothie.jpg"
+              imgSrc="./images/project-smoothie.jpg"
             >
               <h5 className="text-2xl font-bold tracking-tight text-dark-primary dark:text-primary">
                 Smooth Smoothies
@@ -77,7 +77,7 @@ const Portfolio = () => {
             <Card
               className="mx-auto max-w-sm bg-secondary hover:scale-105 dark:bg-dark-secondary"
               imgAlt="Meaningful alt text for an image that is not purely decorative"
-              imgSrc="../public/images/store.png"
+              imgSrc="./images/store.png"
             >
               <h5 className="text-2xl font-bold tracking-tight text-dark-primary dark:text-primary">
                 Online Store
@@ -92,7 +92,7 @@ const Portfolio = () => {
             <Card
               className="mx-auto max-w-sm bg-secondary hover:scale-105 dark:bg-dark-secondary"
               imgAlt="Meaningful alt text for an image that is not purely decorative"
-              imgSrc="../public/images/project-multi-col.png"
+              imgSrc="./images/project-multi-col.png"
             >
               <h5 className="text-2xl font-bold tracking-tight text-dark-primary dark:text-primary">
                 Multi-column Layouts
@@ -106,7 +106,7 @@ const Portfolio = () => {
             <Card
               className="mx-auto max-w-sm bg-secondary hover:scale-105 dark:bg-dark-secondary"
               imgAlt="Meaningful alt text for an image that is not purely decorative"
-              imgSrc="../public/images/project-crypto-wallet.jpg"
+              imgSrc="./images/project-crypto-wallet.jpg"
             >
               <h5 className="text-2xl font-bold tracking-tight text-dark-primary dark:text-primary">
                 Crypto Wallet
@@ -129,47 +129,43 @@ const Portfolio = () => {
 
         <div className="lg:py-13 lg:px-42 grid grid-cols-5 grid-rows-5 gap-12 px-8 py-6 text-center md:px-40 md:py-12 lg:py-14 xl:px-64 xl:py-16 2xl:px-72">
           <div className="w-36 justify-center rounded-xl border-2 border-dark-blue bg-secondary p-5 shadow-xl hover:animate-bounce dark:border-black dark:bg-dark-secondary">
-            <img src="../public/images/c.png" width="120" height="120" />
+            <img src="./images/c.png" width="120" height="120" />
           </div>
           <div className="w-36 justify-center rounded-xl border-2 border-dark-blue bg-secondary p-5 shadow-xl hover:animate-bounce dark:border-black dark:bg-dark-secondary">
-            <img src="../public/images/csharp.png" width="120" height="120" />
+            <img src="./images/csharp.png" width="120" height="120" />
           </div>
           <div className="w-36 justify-center rounded-xl border-2 border-dark-blue bg-secondary p-5 shadow-xl hover:animate-bounce dark:border-black dark:bg-dark-secondary">
-            <img src="../public/images/c++.png" width="120" height="120" />
+            <img src="./images/c++.png" width="120" height="120" />
           </div>
           <div className="w-36 justify-center rounded-xl border-2 border-dark-blue bg-secondary p-5 shadow-xl hover:animate-bounce dark:border-black dark:bg-dark-secondary">
-            <img src="../public/images/python.png" width="120" height="120" />
+            <img src="./images/python.png" width="120" height="120" />
           </div>
           <div className="w-36 justify-center rounded-xl border-2 border-dark-blue bg-secondary p-5 shadow-xl hover:animate-bounce dark:border-black dark:bg-dark-secondary">
-            <img src="../public/images/casio.png" width="120" height="120" />
+            <img src="./images/casio.png" width="120" height="120" />
           </div>
           <div className="w-36 justify-center rounded-xl border-2 border-dark-blue bg-secondary p-5 shadow-xl hover:animate-bounce dark:border-black dark:bg-dark-secondary">
-            <img src="../public/images/ocaml.png" width="120" height="120" />
+            <img src="./images/ocaml.png" width="120" height="120" />
           </div>
           <div className="w-36 justify-center rounded-xl border-2 border-dark-blue bg-secondary p-5 shadow-xl hover:animate-bounce dark:border-black dark:bg-dark-secondary">
-            <img src="../public/images/rust.png" width="120" height="120" />
+            <img src="./images/rust.png" width="120" height="120" />
           </div>
           <div className="w-36 justify-center rounded-xl border-2 border-dark-blue bg-secondary p-5 shadow-xl hover:animate-bounce dark:border-black dark:bg-dark-secondary">
-            <img src="../public/images/kotlin.png" width="120" height="120" />
+            <img src="./images/kotlin.png" width="120" height="120" />
           </div>
           <div className="w-36 justify-center rounded-xl border-2 border-dark-blue bg-secondary p-5 shadow-xl hover:animate-bounce dark:border-black dark:bg-dark-secondary">
-            <img src="../public/images/html.png" width="120" height="120" />
+            <img src="./images/html.png" width="120" height="120" />
           </div>
           <div className="w-36 justify-center rounded-xl border-2 border-dark-blue bg-secondary p-5 shadow-xl hover:animate-bounce dark:border-black dark:bg-dark-secondary">
-            <img src="../public/images/css.png" width="120" height="120" />
+            <img src="./images/css.png" width="120" height="120" />
           </div>
           <div className="col-start-2 w-36 justify-center rounded-xl border-2 border-dark-blue bg-secondary p-5 shadow-xl hover:animate-bounce dark:border-black dark:bg-dark-secondary">
-            <img src="../public/images/java.png" width="120" height="120" />
+            <img src="./images/java.png" width="120" height="120" />
           </div>
           <div className="col-start-3 row-start-3 w-36 justify-center rounded-xl border-2 border-dark-blue bg-secondary p-5 shadow-xl hover:animate-bounce dark:border-black dark:bg-dark-secondary">
-            <img src="../public/images/react.png" width="120" height="120" />
+            <img src="./images/react.png" width="120" height="120" />
           </div>
           <div className="col-start-4 w-36 justify-center rounded-xl border-2 border-dark-blue bg-secondary p-5 shadow-xl hover:animate-bounce dark:border-black dark:bg-dark-secondary">
-            <img
-              src="../public/images/javascript.png"
-              width="120"
-              height="120"
-            />
+            <img src="./images/javascript.png" width="120" height="120" />
           </div>
         </div>
       </section>

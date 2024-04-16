@@ -6,7 +6,7 @@ function NavbarApp() {
     <Navbar fluid className="bg-secondary p-6 shadow-lg dark:bg-dark-secondary">
       <Navbar.Brand className="w-52 pl-10">
         <img
-          src="../public/images/main-favicon-32x32.png"
+          src="./images/main-favicon-32x32.png"
           className="mr-3 h-5 sm:h-7"
           alt="Flowbite React Logo"
         />

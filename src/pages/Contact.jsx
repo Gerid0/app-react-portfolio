@@ -17,11 +17,7 @@ const Contact = () => {
 
       <section className="lg:py-13 md-pl-2 xl-pl-16 xl:py-22 bg-primary py-6 pl-8 text-dark-primary dark:bg-dark-primary dark:text-primary md:px-14 md:py-12 lg:py-14 2xl:pl-28">
         <div className="flex justify-center">
-          <img
-            src="../public/images/paper-plane.jpg"
-            height="600"
-            width="600"
-          />
+          <img src="./images/paper-plane.jpg" height="600" width="600" />
           <div className="rounded-r-xl bg-secondary p-20 shadow-xl dark:bg-dark-secondary">
             <form
               id="email-form"
